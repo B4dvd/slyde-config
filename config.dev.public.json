@@ -1,5 +1,7 @@
 {
 	"solanaRpcBaseUrl" : "https://rpc.helius.xyz/",
 	"snsParentDomain" : ".slydedev.sol",
-	"openLoginApiUrl" : "https://api.openlogin.com/"
+	"openLoginApiUrl" : "https://api.openlogin.com/",
+	"solanaChainId" : "0x1",
+	"solanaBlockExplorer" : "https://explorer.solana.com"
 }
