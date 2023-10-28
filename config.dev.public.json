@@ -3,5 +3,8 @@
 	"snsParentDomain" : "slydedev.sol",
 	"openLoginApiUrl" : "https://api.openlogin.com/",
 	"solanaChainId" : "0x1",
-	"solanaBlockExplorer" : "https://explorer.solana.com"
+	"solanaBlockExplorer" : "https://explorer.solana.com",
+	"usdcMintAddress" : "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+	"usdcTokenProgramId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+	"usdcATokenProgramId": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL"
 }
