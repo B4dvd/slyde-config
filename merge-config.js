@@ -33,7 +33,7 @@ const combineConfigs = async () => {
     upperCaseConfig[camelToUnderscore(key)] = value;
   }
   if (!process.env.PROJECT_TARGET || process.env.PROJECT_TARGET === 'vite') {
-    writeFileSync(combinedPath, JSON.stringify(viteCombinedConfig, null, 2));
+    // writeFileSync(combinedPath, JSON.stringify(viteCombinedConfig, null, 2));
     writeFileSync(tomlPath, json2toml(viteCombinedConfig));
   } else if (process.env.PROJECT_TARGET === 'rust') {
     writeFileSync(tomlPath, json2toml(upperCaseConfig));
