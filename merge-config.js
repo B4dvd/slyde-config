@@ -42,7 +42,7 @@ const combineConfigs = async () => {
 }
 
 combineConfigs().then(() => {
-  console.log('combined configs', combinedPath);
+  console.log('combined configs', combinedPath, tomlPath);
 }).catch((err) => {
   console.log('failed to combine configs', err);
 });
