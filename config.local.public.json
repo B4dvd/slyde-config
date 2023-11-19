@@ -9,5 +9,6 @@
 	"usdcATokenProgramId": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
 	"grpcServiceUrl" : "http://127.0.0.1:50051",
 	"web3AuthNetwork": "sapphire_devnet",
-	"mysqlServerSsl": "false"
+	"mysqlServerSsl": "false",
+	"graphqlServerUrl": "http://127.0.0.1:8080/graphql"
 }

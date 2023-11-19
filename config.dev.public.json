@@ -9,5 +9,6 @@
 	"usdcATokenProgramId": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
 	"grpcServiceUrl" : "http://slyde-server-grpc-js-service.default.svc.cluster.local:50051",
 	"web3AuthNetwork": "sapphire_devnet",
-	"mysqlServerSsl": "false"
+	"mysqlServerSsl": "false",
+	"graphqlServerUrl": "https://api.slyde.dev/graphql"
 }
